@@ -1,0 +1,75 @@
+{
+ "generated": "2026-10-06T12:22Z",
+ "model_version": "warsaw_v1 (Stage 1 XGBoost + fusion MDN, scored 2026-09-29)",
+ "n_buildings": 167102,
+ "n_certified": 10802,
+ "n_photos": 5144,
+ "breaks": {
+  "EP": [
+   107,
+   127,
+   148,
+   182
+  ],
+  "EU": [
+   67,
+   79,
+   87,
+   100
+  ],
+  "EK": [
+   95,
+   114,
+   129,
+   150
+  ]
+ },
+ "medians": {
+  "EP": 137,
+  "EU": 83,
+  "EK": 121
+ },
+ "validation": {
+  "n": 10802,
+  "EP": {
+   "n": 10787,
+   "rho": 0.643,
+   "r2_log": 0.373,
+   "cov80": 0.785,
+   "mae": 51.2
+  },
+  "EU": {
+   "n": 10770,
+   "rho": 0.584,
+   "r2_log": 0.288,
+   "cov80": 0.789,
+   "mae": 30.3
+  },
+  "EK": {
+   "n": 10802,
+   "rho": 0.629,
+   "r2_log": 0.417,
+   "cov80": 0.792,
+   "mae": 42.3
+  }
+ },
+ "cv_headline": {
+  "source": "fussade docs/validation/pl-pool__pl-warsaw-fusion/2026-09-29.md",
+  "n": 10782,
+  "EP": {
+   "rho": 0.645,
+   "r2_log": 0.379,
+   "cov80": 0.792
+  },
+  "EU": {
+   "rho": 0.588,
+   "r2_log": 0.318,
+   "cov80": 0.797
+  },
+  "EK": {
+   "rho": 0.63,
+   "r2_log": 0.422,
+   "cov80": 0.802
+  }
+ }
+}
